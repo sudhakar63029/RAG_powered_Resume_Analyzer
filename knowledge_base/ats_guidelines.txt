@@ -1,0 +1,5 @@
+ATS RULE 1: Bullet points should follow the X-Y-Z formula: 'Achieved [X], measured by [Y], by doing [Z]'. Quantitative metrics (e.g., increased revenue by 20%, reduced latency by 35ms) significantly improve ATS scores.
+ATS RULE 2: Avoid multi-column layouts, graphics, or tables as they disrupt standard ATS text extraction parsers. Use standard headings like 'Work Experience', 'Education', and 'Skills'.
+ATS RULE 3: Hard technical skills (e.g., Python, Docker, Kubernetes, AWS, React) must explicitly match the terminology used in the target job description. Using generic phrasing or synonyms can lower keyword match rates.
+ATS RULE 4: Action verbs should start every single achievement bullet point. Examples include 'Architected', 'Engineered', 'Optimized', 'Spearheaded', rather than passive phrases like 'Responsible for' or 'Worked on'.
+ATS RULE 5: Keep contact information clean at the top. Do not include photos, personal dates of birth, or home addresses.
