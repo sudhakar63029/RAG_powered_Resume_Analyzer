@@ -9,7 +9,7 @@ from backend.services.rag_engine import rag_engine
 
 app = FastAPI(title="Dataset-Powered RAG Resume Analyzer API", version="2.0")
 
-# Enable CORS for frontend communication
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -43,7 +43,7 @@ async def analyze_resume_endpoint(
             feedback="The uploaded PDF appears to be empty or scanned."
         )
 
-    # Run RAG Analysis via the services layer
+    
     feedback_text = rag_engine.analyze_with_rag(extracted_text, job_description)
 
     return AnalysisResponse(
